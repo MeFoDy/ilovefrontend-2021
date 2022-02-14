@@ -126,4 +126,34 @@
     .buttons .button:not(:last-child) {
         margin-right: 10px;
     }
+
+    .button {
+        box-sizing: border-box;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 290px;
+        min-height: 50px;
+        background: #F3B840;
+        color: #010123;
+        border-radius: 11px;
+        font-family: YS Display, Helvetica, Arial, sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 1;
+        padding: 10px 20px;
+        border: 2px solid #F3B840;
+    }
+
+    .button:hover {
+        background: #EEAB00;
+        color: #010123;
+    }
+
+    .button:active,
+    .button:focus {
+        background: #F3B840;
+        border: 2px solid #D29700;
+        color: #010123;
+    }
 </style>
